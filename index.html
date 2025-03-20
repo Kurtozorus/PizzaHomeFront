@@ -20,7 +20,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+        <nav class="navbar navbar-expand-lg bg-dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="/">PizzaHome</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -32,9 +32,6 @@
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link" href="/">Acceuil</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Galerie</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Galerie</a>
@@ -59,8 +56,31 @@
     <main id="main-page">
         <!-- Le contenue de la page sera injectée ici-->
     </main>
-    <footer>
-        Le footer de mon site
+    <footer class="bg-dark text-center footer">
+        <div class="row">
+            <div class="col-12">
+                <h2>PizzaHome</h2>
+            </div>
+            <div class="col-6 d-flex justify-content-center">
+                <div>
+                    <br>
+                    <h4 class="text-primary">Nos horaires</h4>
+                    <p>Mardi au Dimanche : <br> <i class="bi bi-brightness-high"></i> 12h00 - 14h00
+                        <br> <i class="bi bi-moon"></i> 19h00 - 23h00
+                    </p>
+                </div>
+            </div>
+            <div class="col-6 d-flex justify-content-center">
+                <div class="text-start">
+                    <br>
+                    <h4 class="text-primary">Contact</h4>
+                    <p><i class="bi bi-mailbox"></i> pizzahome@hotmail.com <br><i class="bi bi-telephone"></i> :
+                        04.75.02.20.02<br> <i class="bi bi-house-door"></i> : 10 rue Jacquemart,
+                        26100 Romans sur isère
+                    </p>
+                </div>
+            </div>
+        </div>
     </footer>
     <script type="module" src="Router/router.js"></script>
     <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
