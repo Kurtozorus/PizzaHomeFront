@@ -11982,7 +11982,7 @@ footer.footer {
   width: 100%;
 }
 
-p {
+p, .btn {
   font-family: "inter", serif;
   font-size: 10px;
 }
@@ -12014,4 +12014,28 @@ p {
   margin-top: -15px;
   font-family: sans-serif;
   font-size: 14px;
+}
+
+.margin-article {
+  margin-left: 64px;
+  margin-right: 64px;
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
+.img-size {
+  width: 291px;
+  height: 116px;
+}
+
+.marginButton {
+  gap: 15px;
+}
+
+.YellowLight {
+  background-color: #EDF4C2;
+}
+
+.margint3 {
+  margin-top: 1rem;
 }/*# sourceMappingURL=main.css.map */
