@@ -14,13 +14,22 @@ footer.footer{
     bottom: 0;
     width: 100%;
 }
-p, .btn{
+p{
     font-family: $font-family-serif;
     font-size: 10px;
 }
-
+.btn{
+    font-family: $font-family-sans-serif;
+}
+.typoserif{
+    font-family: $font-family-serif;
+}
+.typosansserif{
+    font-family: $font-family-sans-serif;
+}
 .hero-scene{
     position: relative;
+    margin-bottom: 15px;
     &::before{
         content: "";
         position: absolute;
@@ -48,6 +57,74 @@ p, .btn{
         font-size: 14px;
     }
 }
+.galerie-scene{
+    position: relative;
+    margin-bottom: 30px;
+    &::before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url("/Images/pizzagalerie.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        filter: brightness(0.3);
+    }
+    *{
+        //Positionner les éléments devant le before
+        position: relative;
+    }
+    .galerie-scene-content{
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .content-center {
+        margin-top: -15px;
+        font-family: sans-serif;
+        font-size: 14px;
+    }
+}
+.menu-scene{
+    position: relative;
+    margin-bottom: 30px;
+    &::before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url("/Images/menu.webp");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        filter: brightness(0.3);
+    }
+    *{
+        //Positionner les éléments devant le before
+        position: relative;
+    }
+    .menu-scene-content{
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .content-center {
+        margin-top: -15px;
+        font-family: sans-serif;
+        font-size: 14px;
+    }
+}
+.margin-se{
+    margin-left: 40px;
+    margin-right: 40px;
+}
 .margin-article {
     margin-left: 64px;
     margin-right: 64px;
@@ -56,7 +133,28 @@ p, .btn{
 }
 .img-size {
     width: 291px;
-    height: 116px;
+    height: 160px;
+}
+.image-card{
+    position: relative;
+    &:hover{
+        .titre-image{
+            opacity: 1;
+        }
+        img{
+            filter: brightness(0.3);
+        }
+    }
+    img{
+        transition: all 0.3s;
+    }
+    .titre-image{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0;
+    }
 }
 .marginButton{
     gap: 15px;
@@ -66,4 +164,40 @@ p, .btn{
 }
 .margint3{
     margin-top: 1rem;
+}
+.connexion-scene{
+    position: relative;
+    margin-bottom: 15px;
+    &::before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url("/Images/famille.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        filter: brightness(0.3);
+    }
+    *{
+        //Positionner les éléments devant le before
+        position: relative;
+    }
+    .connexion-scene-content{
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .content-center {
+        margin-top: -15px;
+        font-family: sans-serif;
+        font-size: 14px;
+    }
+}
+
+.form-label{
+    color: $primary;
 }
