@@ -16,28 +16,51 @@
                     alt="">
                 <p class="titre-image">La parisienne <br> <br> Salade, tomates, emmental, mais, olives
                 </p>
-                <button class="btn btn-secondary text-white w-100">Réserver</button>
+                <div class="action-image-buttons">
+                    <button type="button" class="btn btn-outline-light" data-bs-toggle="modal"
+                        data-bs-target="#deleteEntreeModal"><i class="bi bi-trash"></i></button>
+                    <button type="button" class="btn btn-outline-light" data-bs-toggle="modal"
+                        data-bs-target="#editionEntreeModal"><i class="bi bi-pencil-square"></i></button>
+                </div>
+                <button id="add-to-cart" class="btn btn-secondary text-white w-100">Réserver</button>
             </div>
         </div>
         <div class="col p-3">
             <div class="image-card text-white">
                 <img class="rounded img-size w-100" src="../Images/salade-dromoise.jpg" alt="">
                 <p class="titre-image">La dromoise <br><br> Salade, tomates, oeuf, caillettes, mais, olive</p>
+                <div class="action-image-buttons">
+                    <button type="button" class="btn btn-outline-light" data-bs-toggle="modal"
+                        data-bs-target="#deleteEntreePhotoModal"><i class="bi bi-trash"></i></button>
+                    <button type="button" class="btn btn-outline-light"><i class="bi bi-pencil-square"></i></button>
+                </div>
             </div>
-            <button class="btn btn-secondary text-white w-100">Réserver</button>
+            <button class="btn btn-secondary text-white w-100">
+                Réserver
+            </button>
         </div>
         <div class="col p-3">
             <div class="image-card text-white">
                 <img class="rounded img-size w-100" src="../Images/salade grecque.jpg" alt="">
                 <p class="titre-image">La grecque <br><br> Salade, tomates, Fêta, ciboulette, mais, olives</p>
+                <div class="action-image-buttons">
+                    <button type="button" class="btn btn-outline-light" data-bs-toggle="modal"
+                        data-bs-target="#deleteEntreePhotoModal"><i class="bi bi-trash"></i></button>
+                    <button type="button" class="btn btn-outline-light"><i class="bi bi-pencil-square"></i></button>
+                </div>
             </div>
-            <button class="btn btn-secondary text-white w-100">Réserver</button>
+            <button id="add-to-cart" class="btn btn-secondary text-white w-100">Réserver</button>
         </div>
         <div class="col p-3">
             <div class="image-card text-white">
                 <img class="rounded img-size w-100" src="../Images/salade nicoise.jpg" alt="">
                 <p class="titre-image">La nicoise <br><br> Salade, tomates, oignons, mais, thon, oeuf, anchois, olives
                 </p>
+                <div class="action-image-buttons">
+                    <button type="button" class="btn btn-outline-light" data-bs-toggle="modal"
+                        data-bs-target="#deleteEntreePhotoModal"><i class="bi bi-trash"></i></button>
+                    <button type="button" class="btn btn-outline-light"><i class="bi bi-pencil-square"></i></button>
+                </div>
                 <button class="btn btn-secondary text-white w-100">Réserver</button>
             </div>
         </div>
@@ -45,7 +68,13 @@
             <div class="image-card text-white">
                 <img class="rounded img-size w-100" src="../Images/salade alaska.jpg" alt="">
                 <p class="titre-image">L'alaska <br><br> Salade, tomates, saumon fumé, beurre, toast, mais, olives,
-                    citron</p>
+                    citron
+                </p>
+                <div class="action-image-buttons">
+                    <button type="button" class="btn btn-outline-light" data-bs-toggle="modal"
+                        data-bs-target="#deleteEntreePhotoModal"><i class="bi bi-trash"></i></button>
+                    <button type="button" class="btn btn-outline-light"><i class="bi bi-pencil-square"></i></button>
+                </div>
             </div>
             <button class="btn btn-secondary text-white w-100">Réserver</button>
         </div>
@@ -54,7 +83,13 @@
                 <img class="rounded img-size w-100" src="../Images/salade-chevre-chaud-1200.jpg" alt="">
                 <p class="titre-image">La chevre chaud <br><br> Salade, tomates, toast, chevre chaud, mais,
                     olives,
-                    citron</p>
+                    citron
+                </p>
+                <div class="action-image-buttons">
+                    <button type="button" class="btn btn-outline-light" data-bs-toggle="modal"
+                        data-bs-target="#deleteEntreePhotoModal"><i class="bi bi-trash"></i></button>
+                    <button type="button" class="btn btn-outline-light"><i class="bi bi-pencil-square"></i></button>
+                </div>
             </div>
             <button class="btn btn-secondary text-white w-100">Réserver</button>
         </div>
@@ -66,6 +101,12 @@
             <div class="image-card text-white">
                 <img class="rounded img-size w-100" src="../Images/pizza-1202775_1280.jpg" alt="">
                 <p class="titre-image">Titre</p>
+                <div class="action-image-buttons">
+                    <button type="button" class="btn btn-outline-light" data-bs-toggle="modal"
+                        data-bs-target="#deletePlatModal"><i class="bi bi-trash"></i></button>
+                    <button type="button" class="btn btn-outline-light" data-bs-toggle="modal"
+                        data-bs-target="#editionPlatModal"><i class="bi bi-pencil-square"></i></button>
+                </div>
             </div>
             <button class="btn btn-secondary text-white w-100">Réserver</button>
         </div>
@@ -112,6 +153,12 @@
             <div class="image-card text-white">
                 <img class="rounded img-size w-100" src="../Images/mousse au chocolat.jpg" alt="">
                 <p class="titre-image">Mousse au chocolat (maison)</p>
+                <div class="action-image-buttons">
+                    <button type="button" class="btn btn-outline-light" data-bs-toggle="modal"
+                        data-bs-target="#deleteDessertModal"><i class="bi bi-trash"></i></button>
+                    <button type="button" class="btn btn-outline-light" data-bs-toggle="modal"
+                        data-bs-target="#editionDessertModal"><i class="bi bi-pencil-square"></i></button>
+                </div>
             </div>
             <button class="btn btn-secondary text-white w-100">Réserver</button>
         </div>
@@ -135,4 +182,189 @@
                 <p class="titre-image">Panna Cotta</p>
             </div>
             <button class="btn btn-secondary text-white w-100">Réserver</button>
+        </div>
+
+        <!-- Modal edition entrée -->
+        <div class="modal fade" id="editionEntreeModal" tabindex="-1" aria-labelledby="editionEntreeModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2 class="modal-title fs-5" id="editionEntreeModalLabel">Edition entrée</h2>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group mb-3">
+                                <label for="namePhotoInput" class="form-label">Titre de l'entrée</label>
+                                <input type="text" class="form-control" id="namePhotoInput" placeholder="Salade">
+                            </div>
+                            <div class="form-group mb-3">
+                                <label for="imageInput" class="form-label">Image</label>
+                                <input type="file" class="form-control" id="imageInput">
+                            </div>
+                            <div class="form-groupe mb-3">
+                                <label for="descriptionInput" class="form-label">Description</label>
+                                <input type="text" class="form-control" id="descriptionInput"
+                                    placeholder="Description de l'entrée">
+                            </div>
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-secondary text-white">Enregistrer</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal suppression photo -->
+        <div class="modal fade" id="deleteEntreeModal" tabindex="-1" aria-labelledby="deleteEntreeModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2 class="modal-title fs-5" id="deleteEntreeModalLabel">Êtes-vous sur de vouloir supprimer
+                            cette
+                            entrée ?
+                        </h2>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group mb-3">
+                                <p>Titre de l'entrée</p>
+                                <img class="rounded img-size w-100" src="../Images/pizza-1202775_1280.jpg" alt="">
+                            </div>
+                            <div class="text-center">
+                                <button type="button" class="btn btn-danger text-white">Supprimer</button>
+                                <button type="button" class="btn btn-secondary text-white"
+                                    data-bs-dismiss="modal">Annuler</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal edition plat -->
+        <div class="modal fade" id="editionPlatModal" tabindex="-1" aria-labelledby="editionPlatModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2 class="modal-title fs-5" id="editionPlatModalLabel">Edition Plat</h2>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group mb-3">
+                                <label for="namePhotoInput" class="form-label">Titre du plat</label>
+                                <input type="text" class="form-control" id="namePhotoInput" placeholder="Salade">
+                            </div>
+                            <div class="form-group mb-3">
+                                <label for="imageInput" class="form-label">Image</label>
+                                <input type="file" class="form-control" id="imageInput">
+                            </div>
+                            <div class="form-groupe mb-3">
+                                <label for="descriptionInput" class="form-label">Description</label>
+                                <input type="text" class="form-control" id="descriptionInput"
+                                    placeholder="Description de l'entrée">
+                            </div>
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-secondary text-white">Enregistrer</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal suppression plat -->
+        <div class="modal fade" id="deletePlatModal" tabindex="-1" aria-labelledby="deletePlatModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2 class="modal-title fs-5" id="deletePlatModalLabel">Êtes-vous sur de vouloir supprimer
+                            cette
+                            plat ?
+                        </h2>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group mb-3">
+                                <p>Titre du plat</p>
+                                <img class="rounded img-size w-100" src="../Images/pizza-1202775_1280.jpg" alt="">
+                            </div>
+                            <div class="text-center">
+                                <button type="button" class="btn btn-danger text-white">Supprimer</button>
+                                <button type="button" class="btn btn-secondary text-white"
+                                    data-bs-dismiss="modal">Annuler</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal edition entrée -->
+        <div class="modal fade" id="editionDessertModal" tabindex="-1" aria-labelledby="editionDessertModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2 class="modal-title fs-5" id="editionDessertModalLabel">Edition dessert</h2>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group mb-3">
+                                <label for="namePhotoInput" class="form-label">Titre du dessert</label>
+                                <input type="text" class="form-control" id="namePhotoInput" placeholder="Salade">
+                            </div>
+                            <div class="form-group mb-3">
+                                <label for="imageInput" class="form-label">Image</label>
+                                <input type="file" class="form-control" id="imageInput">
+                            </div>
+                            <div class="form-groupe mb-3">
+                                <label for="descriptionInput" class="form-label">Description</label>
+                                <input type="text" class="form-control" id="descriptionInput"
+                                    placeholder="Description de l'entrée">
+                            </div>
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-secondary text-white">Enregistrer</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal suppression du dessert -->
+        <div class="modal fade" id="deleteDessertModal" tabindex="-1" aria-labelledby="deleteDessertModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2 class="modal-title fs-5" id="deleteDessertModalLabel">Êtes-vous sur de vouloir supprimer
+                            ce dessert ?
+                        </h2>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group mb-3">
+                                <p>Titre du dessert</p>
+                                <img class="rounded img-size w-100" src="../Images/pizza-1202775_1280.jpg" alt="">
+                            </div>
+                            <div class="text-center">
+                                <button type="button" class="btn btn-danger text-white">Supprimer</button>
+                                <button type="button" class="btn btn-secondary text-white"
+                                    data-bs-dismiss="modal">Annuler</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
