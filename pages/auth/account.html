@@ -11,22 +11,24 @@
             <input type="text" class="form-control" id="nomInput" placeholder="Entrer votre nom" value="john">
         </div>
         <div class="form-group mb-3">
-            <label for="prénomInput" class="form-label">Prénom</label>
-            <input type="text" class="form-control" id="prénomInput" placeholder="Entrer votre prénom" value="doe">
+            <label for="prenomInput" class="form-label">Prénom</label>
+            <input type="text" class="form-control" id="prenomInput" placeholder="Entrer votre prénom" value="doe">
         </div>
         <div class="form-group mb-3">
-            <label for="AllergieInput" class="form-label">Allergies</label>
+            <label for="allergieInput" class="form-label">Allergies</label>
             <input type="text" class="form-control" id="allergieInput"
-                placeholder="Entrer vos allergies (fruit de mer, arachide, etc)" value="cacahuete">
+                placeholder="Entrer vos allergies (fruit de mer, arachide, etc), par défaut nous le placons sur aucun"
+                value="Par défaut : aucune">
         </div>
         <div class="form-group mb-3">
-            <label for="NbConviveInput" class="form-label">Nombre de convives habituel</label>
-            <input type="number" class="form-control" id="allergieInput"
+            <label for="nbConviveInput" class="form-label">Nombre de convives habituel</label>
+            <input type="number" class="form-control" id="nbConviveInput"
                 placeholder="Combien avez vous de convives habituelement ?" value="4">
         </div>
         <div class="text-center">
-            <button type="submit" class="btn btn-secondary text-white">Modifier vos information</button>
-            <button type="submit" class="btn btn-danger text-white">Suprimer mon compte</button>
+            <button type="button" id="btn-update-account" class="btn btn-secondary text-white">Modifier vos
+                information</button>
+            <button type="button" id="btn-delete-account" class="btn btn-danger text-white">Suprimer mon compte</button>
         </div>
         <div class="text-center pt-4">
             <a class="typoserif" href="/editPassword">Cliquer ici pour modifier votre mot de passe</a>

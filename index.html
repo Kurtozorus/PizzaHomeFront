@@ -43,10 +43,13 @@
                             <a class="nav-link" href="/allResa">Les réservations</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/account">Mon compte</a>
+                            <a class="nav-link" href="/account" data-show="connected">Mon compte</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/signin">Connexion</a>
+                            <a class="nav-link" href="/signin" data-show="disconnected">Connexion</a>
+                        </li>
+                        <li class="nav-item">
+                            <button class="nav-link" id="signout-btn" data-show="connected">Déconnexion</button>
                         </li>
                     </ul>
                 </div>
@@ -83,6 +86,7 @@
         </div>
     </footer>
     <script type="module" src="Router/router.js"></script>
+    <script src="/js/script.js"></script>
     <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
